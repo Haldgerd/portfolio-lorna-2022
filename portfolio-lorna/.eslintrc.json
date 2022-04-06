@@ -1,37 +1,37 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
-  "extends": ["plugin:react/recommended", "airbnb", "prettier"],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true,
-      "tsx": true
+    "env": {
+        "browser": true,
+        "es2021": true
     },
-    "ecmaVersion": "latest",
-    "sourceType": "module"
-  },
-  "settings": {
-    "import/resolver": {
-      "typescript": {}
+    "extends": ["plugin:react/recommended", "airbnb", "prettier"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "tsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
+    },
+    "plugins": ["react", "@typescript-eslint"],
+    "rules": {
+        "quotes": ["error", "double", { "allowTemplateLiterals": true }],
+        "import/extensions": ["error", "never"],
+        "max-len": ["warn", { "code": 80 }],
+        "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
+        "linebreak-style": ["error", "unix"],
+        "react/function-component-definition": [
+            2,
+            { "namedComponents": "arrow-function" }
+        ],
+        "import/newline-after-import": ["error", { "count": 1 }],
+        "arrow-body-style": ["error", "always"],
+        "no-multiple-empty-lines": ["error", { "max": 2 }],
+        "react/jsx-uses-vars": "error"
     }
-  },
-  "plugins": ["react", "@typescript-eslint"],
-  "rules": {
-    "quotes": ["error", "double", { "allowTemplateLiterals": true }],
-    "import/extensions": ["error", "never"],
-    "max-len": ["warn", { "code": 80 }],
-    "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
-    "linebreak-style": ["error", "unix"],
-    "react/function-component-definition": [
-      2,
-      { "namedComponents": "arrow-function" }
-    ],
-    "import/newline-after-import": ["error", { "count": 1 }],
-    "arrow-body-style": ["error", "always"],
-    "no-multiple-empty-lines": ["error", { "max": 2 }],
-    "react/jsx-uses-vars": "error"
-  }
 }
