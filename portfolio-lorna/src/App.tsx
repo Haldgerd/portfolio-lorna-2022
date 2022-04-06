@@ -1,9 +1,8 @@
 import React from "react";
 import Landing from "./views/Landing/Landing";
-import logo from "./logo.svg";
 
-function App() {
+const App: React.FC = () => {
   return <Landing />;
-}
+};
 
 export default App;

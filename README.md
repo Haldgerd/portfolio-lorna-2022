@@ -22,3 +22,5 @@ For study purposes I've used Vite as bundler, using `npm create vite@latest -- -
 Possible errors occure with eslint configuration. Refer to offical config guide for eslint:
 
 - First there were errors about tsx files| modules not being imported -either path or no type declaration, not finding modules etc. But upon adding .tsx components to component folder, this problems vanished. (WHY?)
+
+- <strong>!FIX:</strong> SVG favicon doesn't work in CHROME ver 100 (by specifications eg caniuse svg favicons should be supported.)
