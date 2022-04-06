@@ -1,15 +1,15 @@
 @font-face {
   font-family: "share-techmonoregular";
-  src: url("share-techmono-webfont.woff2") format("woff2"),
-    url("share-techmono-webfont.woff") format("woff");
+  src: url("../fonts/share-techmono-webfont.woff2") format("woff2"),
+    url("../fonts/share-techmono-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "bebasregular";
-  src: url("bebas-webfont.woff2") format("woff2"),
-    url("bebas-webfont.woff") format("woff");
+  src: url("../fonts/bebas-webfont.woff2") format("woff2"),
+    url("../fonts/bebas-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -23,10 +23,11 @@
 }
 
 body {
+  width: 100vw;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "bebasregular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
@@ -38,12 +39,23 @@ code {
     monospace;
 }
 
+section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 
 @keyframes App-logo-spin {
   from {

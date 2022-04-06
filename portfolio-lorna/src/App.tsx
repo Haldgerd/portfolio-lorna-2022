@@ -1,15 +1,9 @@
 import React from "react";
+import Landing from "./views/Landing/Landing";
 import logo from "./logo.svg";
 
-const name: string = "I AM LORNA";
-
 function App() {
-  return (
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <h1>{name}</h1>
-    </header>
-  );
+  return <Landing />;
 }
 
 export default App;
