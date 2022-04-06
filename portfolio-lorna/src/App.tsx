@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "./logo.svg";
-import "./app.css";
 
 const name: string = "I AM LORNA";
 
