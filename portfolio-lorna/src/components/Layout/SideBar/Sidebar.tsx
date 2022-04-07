@@ -1,13 +1,8 @@
 import React from "react";
+import styles from "./sidebar.module.css";
 
 const Sidebar = () => {
-    return (
-        <aside>
-            {/* page number -component*/}
-            {/* year - component */}
-            {/* spice text - component build from individual components.*/}
-        </aside>
-    );
+    return <aside className={styles.sidebar}></aside>;
 };
 
 export default Sidebar;
