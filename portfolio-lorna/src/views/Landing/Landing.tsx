@@ -1,12 +1,23 @@
 import React from "react";
 import styles from "./landing.module.css";
 
-const name: string = "I AM LORNA";
+// ----------------------- COMPONENTS IMPORT
+import Image from "../../components/UI/Image";
+import Title from "../../components/UI/Title";
+import Circle from "../../components/Visuals/Circle/Circle";
+import SideBar from "../../components/Layout/SideBar/Sidebar";
 
 const Landing = () => {
     return (
         <section>
-            <h1 className={styles.title}>{name}</h1>
+            <div>
+                <Circle />
+                <Image />
+            </div>
+            <SideBar />
+            <header>
+                <Title className={styles.title} title="I AM LORNA" />
+            </header>
         </section>
     );
 };
