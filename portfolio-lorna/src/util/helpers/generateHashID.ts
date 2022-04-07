@@ -1,4 +1,4 @@
-const generateHashID = () => {
+const generateHashID = (): string => {
     return String(Math.random());
 };
 
