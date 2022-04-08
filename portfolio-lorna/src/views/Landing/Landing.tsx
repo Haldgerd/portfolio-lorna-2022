@@ -16,7 +16,10 @@ const Landing = () => {
             </div>
             <SideBar />
             <header>
-                <Title titleClass="" title="I AM LORNA" />
+                <Title
+                    titleClass="text-9xl text-green-300 font-bold"
+                    title="I AM LORNA"
+                />
             </header>
         </section>
     );
