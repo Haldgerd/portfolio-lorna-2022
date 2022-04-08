@@ -20,20 +20,24 @@
     },
     "plugins": ["react", "@typescript-eslint"],
     "rules": {
-        "quotes": ["error", "double", { "allowTemplateLiterals": true }],
         "import/extensions": ["error", "never"],
-        "max-len": ["warn", { "code": 80 }],
         "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
-        "linebreak-style": ["error", "unix"],
+        "linebreak-style": [0, "unix"],
         "react/function-component-definition": [
             2,
             { "namedComponents": "arrow-function" }
         ],
-        "import/newline-after-import": ["error", { "count": 1 }],
         "arrow-body-style": ["error", "always"],
         "no-multiple-empty-lines": ["error", { "max": 2 }],
         "react/jsx-uses-vars": "error",
         "react/prop-types": ["error"],
-        "react/require-default-props": [2, { "forbidDefaultForRequired": true }]
+        "react/require-default-props": [
+            2,
+            { "forbidDefaultForRequired": true }
+        ],
+        "import/no-extraneous-dependencies": [
+            "error",
+            { "devDependencies": true }
+        ]
     }
 }

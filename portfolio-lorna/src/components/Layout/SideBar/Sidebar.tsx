@@ -1,8 +1,7 @@
 import React from "react";
-import styles from "./sidebar.module.css";
 
 const Sidebar = () => {
-    return <aside className={styles.sidebar}></aside>;
+    return <div>HELLO</div>;
 };
 
 export default Sidebar;
