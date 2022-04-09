@@ -1,9 +1,9 @@
 import React from "react";
-import Landing from "./views/Landing/Landing";
+import Sidebar from "./components/Layout/SideBar/Sidebar";
 // import NavigationArea from "./components/Navigation/NavigationArea";
 
 const App: React.FC = () => {
-    return <Landing />;
+    return <Sidebar />;
 };
 
 export default App;

@@ -3,13 +3,7 @@
         "baseUrl": "./src",
         "composite": true,
         "module": "esnext",
-        "moduleResolution": "node",
-        "paths": {
-            "@/*": ["./src/*"],
-            "@/components/*": ["./components/*"],
-            "@/pages/*": ["./pages/*"],
-            "@/routes/*": ["./routes/*"]
-        }
+        "moduleResolution": "node"
     },
     "include": ["vite.config.ts"]
 }

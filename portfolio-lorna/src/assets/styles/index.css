@@ -1,6 +1,6 @@
-/*
-! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
-*/
+/* this error should not be of concern, to remove warnings install postcss plugin. */
+
+/* ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -468,29 +468,41 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.ml-auto {
-  margin-left: auto;
+.fixed {
+  position: fixed;
 }
 
-.ml-8 {
-  margin-left: 2rem;
+.absolute {
+  position: absolute;
 }
 
-.ml-16 {
-  margin-left: 4rem;
+.left-10 {
+  left: 2.5rem;
 }
 
-.ml-40 {
-  margin-left: 10rem;
+.left-5 {
+  left: 1.25rem;
 }
 
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
+.h-screen {
+  height: 100vh;
 }
 
-.font-bold {
-  font-weight: 700;
+.w-16 {
+  width: 4rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
+.bg-yellow-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
 @font-face {

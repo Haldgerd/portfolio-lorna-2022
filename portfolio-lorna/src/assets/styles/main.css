@@ -1,3 +1,4 @@
+/* this error should not be of concern, to remove warnings install postcss plugin. */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
