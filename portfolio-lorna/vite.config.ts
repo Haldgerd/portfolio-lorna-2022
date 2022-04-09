@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import legacy from "@vitejs/plugin-legacy";
+import * as path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -10,4 +11,9 @@ export default defineConfig({
             targets: ["defaults", "not IE 11"],
         }),
     ],
+    resolve: {
+        alias:
+            // "@": path.resolve(__dirname, "./src"),
+            [{ find: "@", replacement: path.resolve(__dirname, "/src") }],
+    },
 });
