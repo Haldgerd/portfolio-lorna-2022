@@ -18,11 +18,11 @@
     },
     "include": ["**/*.ts", "**/*.tsx", "**/*.jsx"],
     "exclude": ["node_modules"],
-    "references": [{ "path": "./tsconfig.node.json" }]
-    // "paths": {
-    //     "@/*": ["./src/*"],
-    //     "@/components/*": ["./components/*"],
-    //     "@/pages/*": ["./pages/*"],
-    //     "@/routes/*": ["./routes/*"]
-    // }
+    "references": [{ "path": "./tsconfig.node.json" }],
+    "paths": {
+        "@/*": ["src/*"],
+        "@/components/*": ["components/*"],
+        "@/pages/*": ["pages/*"],
+        "@/routes/*": ["routes/*"]
+    }
 }

@@ -52,6 +52,7 @@
                 "submit": "true",
                 "reset": "true"
             }
-        ]
+        ],
+        "import/no-unresolved": [0]
     }
 }
