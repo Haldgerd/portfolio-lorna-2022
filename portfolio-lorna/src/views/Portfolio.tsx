@@ -6,7 +6,7 @@ import Circle from "../components/Visuals/Circle/Circle";
 
 const Portfolio = () => {
     return (
-        <section>
+        <section className="grid">
             <Sidebar />
             <NavigationArea />
             <Image />
