@@ -40,11 +40,6 @@ body {
     overflow-x: hidden;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
-
 section {
     height: 100vh;
     width: 100vw;
@@ -58,9 +53,9 @@ h1 {
 }
 
 img {
-    height: 110vh;
+    height: 100vh;
     position: absolute;
-    left: 10px;
+    left: 80px;
     top: 0px;
 }
 
@@ -106,4 +101,9 @@ header {
 
 button {
   font-size: calc(10px + 2vmin);
+} */
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 } */

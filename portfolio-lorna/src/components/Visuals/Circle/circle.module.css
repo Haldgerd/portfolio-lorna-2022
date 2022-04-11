@@ -4,7 +4,7 @@
     height: 70vh;
     border-radius: 50%;
     position: absolute;
-    top: 30px;
-    left: 100px;
+    top: -10px;
+    left: 135px;
     z-index: -1;
 }
