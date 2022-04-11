@@ -6,40 +6,36 @@ const NAV_ICONS = [
     {
         id: generateHashID(),
         icon: "icon",
+        content: "btn",
     },
     {
         id: generateHashID(),
         icon: "icon",
+        content: "btn",
     },
     {
         id: generateHashID(),
         icon: "icon",
+        content: "btn",
     },
     {
         id: generateHashID(),
         icon: "icon",
+        content: "btn",
     },
 ];
 
-const createNavButtons = () => {
-    const navBtns = NAV_ICONS.map((button) => {
-        return (
-            <Button
-                key={button.id}
-                btnClass="bg-yellow-400 w-3 h-3 ml-2"
-                content={button.icon}
-                type="button"
-            />
-        );
-    });
-
-    return navBtns;
-};
-
 const NavigationArea = () => {
     return (
-        <menu className="absolute right-10 bottom-7 bg-yellow-400 w-32 h-14">
-            {createNavButtons}
+        <menu className="fixed right-10 bottom-7 flex">
+            {NAV_ICONS.map((button) => (
+                <Button
+                    key={button.id}
+                    btnClass="flex justify-center items-center rounded-full bg-yellow-400 ml-3 w-16 h-16"
+                    type="button"
+                    content={button.content}
+                />
+            ))}
         </menu>
     );
 };

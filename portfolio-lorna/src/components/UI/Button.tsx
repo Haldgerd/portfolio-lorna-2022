@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 
 const Button = ({ btnClass, content, type }) => {
     return (
-        <button className={btnClass}>
-            {content} type={type}
+        <button className={btnClass} type={type}>
+            {content}
         </button>
     );
 };

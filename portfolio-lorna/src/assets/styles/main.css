@@ -37,7 +37,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-color: #282c34;
     color: white;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* code {
@@ -66,6 +66,27 @@ img {
 
 header {
     margin-right: 4em;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #e8b80e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #f74a46;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {

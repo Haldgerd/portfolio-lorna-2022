@@ -46,7 +46,7 @@
             { "devDependencies": true }
         ],
         "react/button-has-type": [
-            0,
+            "error",
             {
                 "button": "true",
                 "submit": "true",

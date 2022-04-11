@@ -1,12 +1,11 @@
 import React from "react";
-import Sidebar from "./components/Layout/SideBar/Sidebar";
-import NavigationArea from "./components/Navigation/NavigationArea";
+import Portfolio from "./views/Portfolio";
 
 const App: React.FC = () => {
     return (
         <>
-            <Sidebar />
-            <NavigationArea />
+            <Portfolio />
+            <div className="h-screen">Hello</div>
         </>
     );
 };
