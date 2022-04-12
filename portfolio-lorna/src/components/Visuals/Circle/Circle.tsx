@@ -1,8 +1,12 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import styles from "./circle.module.css";
 
-const Circle = () => {
-    return <div className={styles.circle} />;
+const type Props = {
+    circleClass: string;
+}
+
+const Circle: FunctionComponent = ({ circleClass }): JSX.Element => {
+    return <div className={circleClass} />;
 };
 
 export default Circle;

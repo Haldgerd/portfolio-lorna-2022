@@ -1,5 +1,6 @@
 import React from "react";
 import Portfolio from "./views/Portfolio";
+import Contact from "./views/Contact";
 
 const App: React.FC = () => {
     return (
@@ -7,7 +8,7 @@ const App: React.FC = () => {
             <Portfolio />
             <div className="h-screen bg-red-600" />
             <div className="h-screen bg-gray-900" />
-            <div className="h-screen bg-red-600" />
+            <Contact />
         </>
     );
 };

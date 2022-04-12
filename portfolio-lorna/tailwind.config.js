@@ -13,7 +13,7 @@ module.exports = {
             },
             colors: {
                 transparent: "transparent",
-                black: "#000",
+                bobbyBlack: "#262724",
                 white: "#fff",
             },
             // fontSize: {
@@ -23,6 +23,11 @@ module.exports = {
                 // Adds a new breakpoint in addition to the default breakpoints
                 screens: {
                     "3xl": "1600px",
+                },
+                colors: {
+                    // TODO: PROBLEM: custom colors not FOUND.
+                    pureRed: "#f74a46",
+                    juicyYellow: "#E8B80E",
                 },
             },
         },
