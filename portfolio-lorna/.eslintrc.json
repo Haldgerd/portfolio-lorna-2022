@@ -27,10 +27,10 @@
     "plugins": ["react", "@typescript-eslint"],
     "rules": {
         "import/extensions": ["error", "never"],
-        "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
-        "linebreak-style": [0, "unix"],
+        "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+        "linebreak-style": ["error", "unix"],
         "react/function-component-definition": [
-            2,
+            "error",
             { "namedComponents": "arrow-function" }
         ],
         "arrow-body-style": ["error", "always"],
@@ -38,7 +38,7 @@
         "react/jsx-uses-vars": "error",
         "react/prop-types": ["error"],
         "react/require-default-props": [
-            2,
+            "error",
             { "forbidDefaultForRequired": true }
         ],
         "import/no-extraneous-dependencies": [
@@ -48,9 +48,9 @@
         "react/button-has-type": [
             "error",
             {
-                "button": "true",
-                "submit": "true",
-                "reset": "true"
+                "button": true,
+                "submit": true,
+                "reset": true
             }
         ],
         "import/no-unresolved": [0]

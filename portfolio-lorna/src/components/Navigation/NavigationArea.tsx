@@ -1,7 +1,7 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
+import { Icon } from "@iconify/react";
 import generateHashID from "../../util/helpers/generateHashID.js";
 import Button from "../UI/Button";
-import { Icon } from "@iconify/react";
 
 const NAV_ICONS = [
     {
@@ -46,17 +46,19 @@ const NAV_ICONS = [
     },
 ];
 
-const NavigationArea = () => {
+const NavigationArea: FunctionComponent = (): JSX.Element => {
     return (
         <menu className="fixed right-10 bottom-7 flex">
-            {NAV_ICONS.map((button) => (
-                <Button
-                    key={button.id}
-                    btnClass="flex justify-center items-center rounded-full bg-yellow-400 ml-3 w-16 h-16"
-                    type="button"
-                    content={button.icon}
-                />
-            ))}
+            {NAV_ICONS.map((button) => {
+                return (
+                    <Button
+                        key={button.id}
+                        btnClass="flex justify-center items-center rounded-full bg-yellow-400 ml-3 w-16 h-16"
+                        type="button"
+                        content={button.icon}
+                    />
+                );
+            })}
         </menu>
     );
 };

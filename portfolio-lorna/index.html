@@ -9,12 +9,16 @@
             content="Personal porftolio page edition summer 2022. For people looking for an edge and boldness."
         />
         <script type="module" src="/src/main.tsx" defer></script>
+        <!-- fallback for legacy browsers that do not support SVG favicons. -->
         <link rel="icon" href="./favicon.png" sizes="any" />
         <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
         <link rel="manifest" href="./manifest.json" />
+        <link rel="stylesheet" href="./src/assets/styles/index.css" />
         <title>I AM LORNA</title>
     </head>
     <body>
-        <main id="root"></main>
+        <main id="root">
+            <!-- React app inserted here -->
+        </main>
     </body>
 </html>
