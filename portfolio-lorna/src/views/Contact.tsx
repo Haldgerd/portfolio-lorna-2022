@@ -1,6 +1,5 @@
 import React from "react";
 import Circle from "../components/Visuals/Circle/Circle";
-import Diorama from "../components/Visuals/Diorama/Diorama";
 
 const Contact = () => {
     return (
