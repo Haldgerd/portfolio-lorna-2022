@@ -2,7 +2,7 @@ import React from "react";
 import Portfolio from "./views/Portfolio";
 import Contact from "./views/Contact";
 
-const App: React.FC = () => {
+const App: React.FC = (): JSX.Element => {
     return (
         <>
             <Portfolio />

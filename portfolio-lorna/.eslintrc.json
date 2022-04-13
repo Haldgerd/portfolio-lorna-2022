@@ -28,7 +28,7 @@
     "rules": {
         "import/extensions": ["error", "never"],
         "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
-        "linebreak-style": ["error", "unix"],
+        "linebreak-style": ["error", "windows"],
         "react/function-component-definition": [
             "error",
             { "namedComponents": "arrow-function" }
@@ -53,6 +53,9 @@
                 "reset": true
             }
         ],
-        "import/no-unresolved": [0]
+        "import/no-unresolved": [0],
+        "no-undef": [0]
+        // Disallows the use of undeclared variables unless mentioned in /*global */ comments.
+        // Explicit declaration of global variables -  disabled.
     }
 }
