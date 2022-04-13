@@ -1,12 +1,12 @@
 import React from "react";
 import Diorama from "../components/Visuals/Diorama/Diorama";
 
-const About = () => {
+const Skills = () => {
     return (
-        <section className="tw-overflow-hidden">
+        <section>
             <Diorama />
         </section>
     );
 };
 
-export default About;
+export default Skills;

@@ -1,8 +1,6 @@
-// ERROR | BUG: Tailwind changes are applied only when I reload tailwind config file. Otherwise changes are not noted or applied.
-
 module.exports = {
-    // prefix: "tw-", generates an error - no util classes detected in source files
-    purge: ["./**/*.html", "./src/**/*.tsx"],
+    mode: "jit",
+    prefix: "tw-",
     content: ["./src/**/*.{html,js,tsx}"],
     theme: {
         theme: {
@@ -13,9 +11,6 @@ module.exports = {
                 xl: "1280px",
                 "2xl": "1536px",
             },
-            // fontSize: {
-            //     "10xl": "11rem",
-            // },
             extend: {
                 screens: {
                     "3xl": "1600px",
@@ -32,9 +27,14 @@ module.exports = {
                         700: "#262724",
                     },
                 },
+                width: {
+                    70: "70vh",
+                },
+                height: {
+                    70: "70vh",
+                },
             },
         },
-
         plugins: [],
     },
 };

@@ -8,7 +8,7 @@ const NAV_ICONS = [
         id: generateHashID(),
         icon: (
             <Icon
-                className="text-4xl"
+                className="tw-text-4xl"
                 icon="file-icons:terminal"
                 color="#262724"
             />
@@ -18,7 +18,7 @@ const NAV_ICONS = [
         id: generateHashID(),
         icon: (
             <Icon
-                className="text-5xl"
+                className="tw-text-5xl"
                 icon="clarity:floppy-solid"
                 color="#262724"
             />
@@ -28,7 +28,7 @@ const NAV_ICONS = [
         id: generateHashID(),
         icon: (
             <Icon
-                className="text-5xl"
+                className="tw-text-5xl"
                 icon="clarity:cd-dvd-solid"
                 color="#262724"
             />
@@ -38,7 +38,7 @@ const NAV_ICONS = [
         id: generateHashID(),
         icon: (
             <Icon
-                className="text-5xl"
+                className="tw-text-5xl"
                 icon="mdi:robot-confused"
                 color="#262724"
             />
@@ -48,12 +48,12 @@ const NAV_ICONS = [
 
 const NavigationArea: FunctionComponent = (): JSX.Element => {
     return (
-        <menu className="fixed right-10 bottom-7 flex">
+        <menu className="tw-fixed tw-right-10 tw-bottom-7 tw-flex tw-z-10">
             {NAV_ICONS.map((button) => {
                 return (
                     <Button
                         key={button.id}
-                        btnClass="flex justify-center items-center rounded-full bg-yellow-400 ml-3 w-16 h-16"
+                        btnClass="tw-flex tw-justify-center tw-items-center tw-rounded-full tw-bg-yellow-400 tw-ml-3 tw-w-16 tw-h-16"
                         type="button"
                         content={button.icon}
                     />

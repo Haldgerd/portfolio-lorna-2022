@@ -6,7 +6,7 @@ const Image = () => {
         <img
             src={Lorna}
             alt="Illustration of a female with blue hair and glasses from which rax of light is being emitted. Dressed in crop top with arcade print."
-        ></img>
+        />
     );
 };
 

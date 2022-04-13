@@ -46,6 +46,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 
 h1 {
@@ -57,11 +59,14 @@ img {
     position: absolute;
     left: 80px;
     top: 0px;
+    z-index: 10;
 }
 
 header {
     margin-right: 4em;
 }
+
+/* Diorama styling applied globally */
 
 /* SCROLLBAR */
 /* width */

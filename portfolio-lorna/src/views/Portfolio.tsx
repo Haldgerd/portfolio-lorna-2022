@@ -3,6 +3,7 @@ import Sidebar from "../components/Layout/SideBar/Sidebar";
 import NavigationArea from "../components/Navigation/NavigationArea";
 import Image from "../components/UI/Image";
 import Circle from "../components/Visuals/Circle/Circle";
+import styles from "./portfolio.module.css";
 
 const Portfolio = () => {
     return (
@@ -10,7 +11,9 @@ const Portfolio = () => {
             <Sidebar />
             <NavigationArea />
             <Image />
-            <Circle circleClass=" w-32 h-32 absolute top-10 left-10 bg-red-600 rounded-full" />
+            <Circle
+                circleClass={`${styles.circle} tw-absolute -z-10 tw-bg-red-600 tw-rounded-full -tw-top-17 tw-left-36 tw-w-70 tw-h-70`}
+            />
         </section>
     );
 };
