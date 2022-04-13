@@ -10,7 +10,7 @@ const Portfolio = () => {
             <Sidebar />
             <NavigationArea />
             <Image />
-            <Circle circleClass="bg-red-400 rounded-full" />
+            <Circle circleClass=" w-32 h-32 absolute top-10 left-10 bg-red-600 rounded-full" />
         </section>
     );
 };

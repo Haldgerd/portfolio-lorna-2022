@@ -7,7 +7,7 @@ const App: React.FC = (): JSX.Element => {
         <>
             <Portfolio />
             <div className="h-screen bg-red-600" />
-            <div className="h-screen bg-gray-900" />
+            <div className="h-screen bg-black-700" />
             <Contact />
         </>
     );

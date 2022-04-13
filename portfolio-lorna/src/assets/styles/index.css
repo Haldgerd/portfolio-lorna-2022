@@ -472,16 +472,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
 .right-10 {
   right: 2.5rem;
 }
 
 .bottom-7 {
   bottom: 1.75rem;
-}
-
-.left-10 {
-  left: 2.5rem;
 }
 
 .ml-3 {
@@ -500,8 +508,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .h-16 {
   height: 4rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .w-16 {
@@ -531,21 +547,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-red-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-}
-
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
-.bg-red-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-}
-
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 
 .bg-yellow-400 {
