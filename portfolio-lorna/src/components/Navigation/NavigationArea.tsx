@@ -55,8 +55,9 @@ const NavigationArea: React.FC = (): JSX.Element => {
                         key={button.id}
                         btnClass="tw-flex tw-justify-center tw-items-center tw-rounded-full tw-bg-yellow-400 tw-ml-3 tw-w-16 tw-h-16"
                         type="button"
-                        content={button.icon}
-                    />
+                    >
+                        {button.icon}
+                    </Button>
                 );
             })}
         </menu>

@@ -1,6 +1,10 @@
 import React from "react";
 
-const Circle: React.FC = ({ circleClass }): JSX.Element => {
+type Props = {
+    circleClass: string;
+};
+
+const Circle: React.FC<Props> = ({ circleClass }): JSX.Element => {
     return <div className={circleClass} />;
 };
 

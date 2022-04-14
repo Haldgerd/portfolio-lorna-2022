@@ -1,6 +1,6 @@
-/* this error should not be of concern, to remove warnings install postcss plugin. */
-
-/* ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com */
+/*
+! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
+*/
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -480,8 +480,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
-.-tw-top-4 {
-  top: -1rem;
+.tw-left-36 {
+  left: 9rem;
 }
 
 .tw-right-10 {
@@ -504,34 +504,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0px;
 }
 
-.tw-left-0 {
-  left: 0px;
-}
-
-.tw-left-20 {
-  left: 5rem;
-}
-
-.tw-left-96 {
-  left: 24rem;
-}
-
-.tw-left-72 {
-  left: 18rem;
-}
-
-.tw-left-48 {
-  left: 12rem;
-}
-
-.tw-left-40 {
-  left: 10rem;
-}
-
-.tw-left-36 {
-  left: 9rem;
-}
-
 .tw-z-10 {
   z-index: 10;
 }
@@ -548,16 +520,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
-.tw-h-32 {
-  height: 8rem;
-}
-
 .tw-h-16 {
   height: 4rem;
-}
-
-.tw-w-32 {
-  width: 8rem;
 }
 
 .tw-w-16 {
@@ -580,12 +544,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   overflow: hidden;
 }
 
-.tw-rounded {
-  border-radius: 0.25rem;
-}
-
 .tw-rounded-full {
   border-radius: 9999px;
+}
+
+.tw-bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
 .tw-bg-red-600 {
@@ -596,11 +561,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-bg-yellow-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
-}
-
-.tw-bg-red-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
 .tw-text-4xl {
@@ -633,14 +593,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: normal;
 
   font-style: normal;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 body {
@@ -677,12 +629,6 @@ img {
   top: 0px;
   z-index: 10;
 }
-
-header {
-  margin-right: 4em;
-}
-
-/* Diorama styling applied globally */
 
 /* SCROLLBAR */
 

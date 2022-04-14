@@ -1,9 +1,15 @@
 import React from "react";
 
-const Button: React.FC = ({ btnClass, content, type }): JSX.Element => {
+type Props = {
+    btnClass: string;
+    children: React.ReactNode;
+    type: "submit" | "reset" | "button";
+};
+
+const Button: React.FC<Props> = ({ btnClass, children, type }): JSX.Element => {
     return (
-        <button className={btnClass} type={type || "button"}>
-            {content}
+        <button className={btnClass} type={type}>
+            {children}
         </button>
     );
 };
