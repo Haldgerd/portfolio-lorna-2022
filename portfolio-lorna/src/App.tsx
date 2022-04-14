@@ -5,7 +5,7 @@ import About from "./views/About";
 import Projects from "./views/Projects";
 import Skills from "./views/Skills";
 
-const App: React.FC = (): JSX.Element => {
+const App: React.VFC = (): JSX.Element => {
     return (
         <>
             <Portfolio />

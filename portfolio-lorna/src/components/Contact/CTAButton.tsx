@@ -1,7 +1,7 @@
 import React from "react";
 
-const CTAButton = () => {
-  return <div>CTAButton</div>;
+const CTAButton: React.VFC = (): JSX.Element => {
+    return <div>CTAButton</div>;
 };
 
 export default CTAButton;

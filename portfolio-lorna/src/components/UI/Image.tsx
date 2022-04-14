@@ -1,7 +1,7 @@
 import React from "react";
 import Lorna from "../../assets/images/lorna.png";
 
-const Image = () => {
+const Image: React.VFC = (): JSX.Element => {
     return (
         <img
             src={Lorna}

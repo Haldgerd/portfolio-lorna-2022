@@ -1,6 +1,6 @@
 import React from "react";
 
-const Title = ({ title, titleClass }): JSX.Element => {
+const Title: React.FC = ({ title, titleClass }): JSX.Element => {
     return <h1 className={titleClass}>{title}</h1>;
 };
 

@@ -1,6 +1,6 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 
-const Circle: FunctionComponent = ({ circleClass }): JSX.Element => {
+const Circle: React.FC = ({ circleClass }): JSX.Element => {
     return <div className={circleClass} />;
 };
 

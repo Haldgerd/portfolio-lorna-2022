@@ -1,6 +1,6 @@
 import React from "react";
 
-const Square = () => {
+const Square: React.VFC = (): JSX.Element => {
     return <div>NO</div>;
 };
 

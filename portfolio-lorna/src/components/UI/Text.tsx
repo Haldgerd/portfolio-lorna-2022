@@ -1,7 +1,7 @@
 import React from "react";
 
-const Text = () => {
-  return <div>Text</div>;
+const Text: React.FC = (): JSX.Element => {
+    return <div>Text</div>;
 };
 
 export default Text;

@@ -1,7 +1,7 @@
 import React from "react";
 
-const Icon = () => {
-  return <div>Icon</div>;
+const Icon: React.FC = (): JSX.Element => {
+    return <div>Icon</div>;
 };
 
 export default Icon;

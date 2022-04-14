@@ -5,7 +5,7 @@ import Image from "../components/UI/Image";
 import Circle from "../components/Visuals/Circle/Circle";
 import styles from "./portfolio.module.css";
 
-const Portfolio = () => {
+const Portfolio: React.VFC = (): JSX.Element => {
     return (
         <section className="grid">
             <Sidebar />

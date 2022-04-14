@@ -1,7 +1,7 @@
 import React from "react";
 import Diorama from "../components/Visuals/Diorama/Diorama";
 
-const Skills = () => {
+const Skills: React.FC = (): JSX.Element => {
     return (
         <section>
             <Diorama />

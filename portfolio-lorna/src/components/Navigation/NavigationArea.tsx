@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 import { Icon } from "@iconify/react";
 import generateHashID from "../../util/helpers/generateHashID.js";
 import Button from "../UI/Button";
@@ -46,7 +46,7 @@ const NAV_ICONS = [
     },
 ];
 
-const NavigationArea: FunctionComponent = (): JSX.Element => {
+const NavigationArea: React.FC = (): JSX.Element => {
     return (
         <menu className="tw-fixed tw-right-10 tw-bottom-7 tw-flex tw-z-10">
             {NAV_ICONS.map((button) => {
