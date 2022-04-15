@@ -53,7 +53,7 @@ const NavigationArea: React.FC = (): JSX.Element => {
                 return (
                     <Button
                         key={button.id}
-                        btnClass="tw-flex tw-justify-center tw-items-center tw-rounded-full tw-bg-yellow-400 tw-ml-3 tw-w-16 tw-h-16"
+                        btnClass="tw-flex tw-justify-center tw-items-center tw-rounded-full tw-bg-yellow-400 tw-ml-3 tw-w-16 tw-h-16 hover:tw-bg-red-500"
                         type="button"
                     >
                         {button.icon}

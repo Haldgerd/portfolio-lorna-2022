@@ -8,7 +8,7 @@ type Props = {
 
 const Button: React.FC<Props> = ({ btnClass, children, type }): JSX.Element => {
     return (
-        <button className={btnClass} type={type}>
+        <button className={btnClass} type={type || "button"}>
             {children}
         </button>
     );

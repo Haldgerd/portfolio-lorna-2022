@@ -61,12 +61,15 @@ img {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: white;
+    /* background: white; */
+    /* background: #282c34; */
+    background: #e8b80e;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #e8b80e;
+    /* background: #e8b80e; */
+    background: #282c34;
 }
 
 /* Handle on hover */

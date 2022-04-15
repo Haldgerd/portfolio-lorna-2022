@@ -1,6 +1,9 @@
 module.exports = {
     prefix: "tw-",
-    content: ["./src/**/*.{html,js,tsx}"],
+    content: [
+        "./src/**/*.{html,js,tsx}",
+        "./src/components/**/*.{html,js,tsx}",
+    ],
     theme: {
         theme: {
             screens: {
@@ -17,7 +20,7 @@ module.exports = {
                 colors: {
                     transparent: "transparent",
                     red: {
-                        700: "#f74a46",
+                        800: "#f74a46",
                     },
                     yellow: {
                         700: "#E8B80E",

@@ -54,8 +54,9 @@
             }
         ],
         "import/no-unresolved": [0],
-        "no-undef": [0]
+        "no-undef": [0],
         // Disallows the use of undeclared variables unless mentioned in /*global */ comments.
         // Explicit declaration of global variables -  disabled.
+        "no-console": ["error", { "allow": ["warn", "error"] }]
     }
 }
