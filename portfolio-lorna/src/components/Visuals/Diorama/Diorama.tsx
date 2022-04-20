@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./diorama.module.css";
+import { styles } from "./diorama.module.css";
 
 const Diorama: React.VFC = (): JSX.Element => {
     return (

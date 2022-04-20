@@ -12,7 +12,7 @@ const Portfolio: React.VFC = (): JSX.Element => {
             <NavigationArea />
             <Image />
             <Circle
-                circleClass={`${styles.circle} tw-absolute -z-10 tw-bg-red-600 tw-rounded-full -tw-top-17 tw-left-36 tw-w-70 tw-h-70`}
+                circleClass={`${styles.circle} tw-absolute -z-10 tw-bg-red-500 tw-rounded-full -tw-top-17 tw-left-36 tw-w-70 tw-h-70`}
             />
         </section>
     );

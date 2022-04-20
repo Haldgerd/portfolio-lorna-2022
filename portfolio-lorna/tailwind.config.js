@@ -20,13 +20,13 @@ module.exports = {
                 colors: {
                     transparent: "transparent",
                     red: {
-                        800: "#f74a46",
+                        cherry: "#f74a46",
                     },
                     yellow: {
-                        700: "#E8B80E",
+                        sunny: "#E8B80E",
                     },
                     black: {
-                        700: "#262724",
+                        nicola: "#262724",
                     },
                 },
                 width: {

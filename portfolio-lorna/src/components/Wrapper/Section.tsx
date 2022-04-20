@@ -1,12 +1,11 @@
-import React, { FunctionComponent } from "react";
-import PropTypes from "prop-types";
+import React from "react";
 
-const Section: FunctionComponent = ({ children }): JSX.Element => {
-    return <section>{children}</section>;
+type Props = {
+    children: React.ReactNode;
 };
 
-Section.prototype = {
-    children: PropTypes.node.isRequired,
+const Section: React.FC<Props> = ({ children }): JSX.Element => {
+    return <section>{children}</section>;
 };
 
 export default Section;

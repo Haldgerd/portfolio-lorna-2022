@@ -61,20 +61,17 @@ img {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    /* background: white; */
-    /* background: #282c34; */
-    background: #e8b80e;
+    background-color: #282c34;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    /* background: #e8b80e; */
-    background: #282c34;
+    background-color: #e8b80e;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #f74a46;
+    background-color: #f74a46;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
