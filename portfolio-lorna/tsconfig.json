@@ -18,6 +18,7 @@
         "removeComments": true,
         "isolatedModules": true,
         "noEmit": true,
+        "noUnusedParameters": true,
         "noEmitOnError": true,
         "jsx": "react-jsx"
     },
