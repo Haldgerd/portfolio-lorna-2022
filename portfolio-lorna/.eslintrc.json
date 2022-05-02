@@ -26,7 +26,7 @@
     },
     "plugins": ["react", "@typescript-eslint"],
     "rules": {
-        "import/extensions": ["error", "never"],
+        // "import/extensions": ["error", "never"],
         "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
         "linebreak-style": ["error", "windows"],
         "react/function-component-definition": [
@@ -46,7 +46,7 @@
             { "devDependencies": true }
         ],
         "react/button-has-type": [
-            "error",
+            0,
             {
                 "button": true,
                 "submit": true,
@@ -57,6 +57,16 @@
         "no-undef": [0],
         // Disallows the use of undeclared variables unless mentioned in /*global */ comments.
         // Explicit declaration of global variables -  disabled.
-        "no-console": ["error", { "allow": ["warn", "error"] }]
+        "no-console": ["error", { "allow": ["warn", "error"] }],
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": ["error"],
+        "import/extensions": [
+            "error",
+            {
+                "tsx": "never",
+                "json": "always",
+                "css": "always"
+            }
+        ]
     }
 }

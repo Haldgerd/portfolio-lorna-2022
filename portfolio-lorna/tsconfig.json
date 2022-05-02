@@ -2,7 +2,7 @@
     "compilerOptions": {
         "rootDir": "src",
         "outDir": "dist",
-        "target": "es6",
+        "target": "ESNext",
         "sourceMap": true,
         "useDefineForClassFields": true,
         "lib": ["DOM", "DOM.Iterable", "ESNext", "ScriptHost"],
@@ -12,8 +12,8 @@
         "allowSyntheticDefaultImports": true,
         "strict": true,
         "forceConsistentCasingInFileNames": true,
-        "module": "commonjs",
-        "moduleResolution": "Node",
+        "module": "ESNext",
+        "moduleResolution": "NodeNext",
         "resolveJsonModule": true,
         "removeComments": true,
         "isolatedModules": true,
@@ -22,13 +22,13 @@
         "noEmitOnError": true,
         "jsx": "react-jsx"
     },
-    "include": ["**/*.tsx", "**/*.jsx"],
+    "include": ["**/*.tsx", "**/*.jsx", "./src/declarations.d.ts"],
     "exclude": ["node_modules"],
     "references": [{ "path": "./tsconfig.node.json" }],
     "paths": {
         "@/*": ["src/*"],
-        "@/components/*": ["components/*"],
-        "@/pages/*": ["pages/*"],
-        "@/routes/*": ["routes/*"]
+        "@components/*": ["components/*"],
+        "@pages/*": ["pages/*"],
+        "@routes/*": ["routes/*"]
     }
 }
