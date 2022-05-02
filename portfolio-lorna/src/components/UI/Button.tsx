@@ -6,7 +6,11 @@ type Props = {
     type: "submit" | "reset" | "button";
 };
 
-const Button: React.FC<Props> = ({ btnClass, children, type }): JSX.Element => {
+const Button: React.FC<Props> = ({
+    btnClass,
+    children,
+    type = "button",
+}): JSX.Element => {
     return (
         <button className={btnClass} type={type}>
             {children}

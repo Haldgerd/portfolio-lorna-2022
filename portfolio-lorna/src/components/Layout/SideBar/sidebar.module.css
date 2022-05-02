@@ -1,0 +1,17 @@
+.author {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.circle__small {
+    background-color: red;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+}
+
+.square {
+    background-color: black;
+    width: 10vh;
+    height: 10vh;
+}
