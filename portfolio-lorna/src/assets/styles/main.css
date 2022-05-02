@@ -18,6 +18,14 @@
     font-style: normal;
 }
 
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     width: 100vw;
     margin: 0;
@@ -97,3 +105,14 @@ button {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 } */
+
+.circle {
+    width: 70vh;
+    height: 70vh;
+}
+
+.diorama {
+    clip-path: polygon(100% 0, 100% 61%, 0 100%, 0 38%);
+    width: 35%;
+    height: 122vh;
+}
