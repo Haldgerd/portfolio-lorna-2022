@@ -1,5 +1,5 @@
 import React from "react";
-import Portfolio from "./views/Portfolio";
+import Portfolio from "./views/Portfolio/Portfolio";
 import Contact from "./views/Contact";
 import About from "./views/About";
 import Projects from "./views/Projects";

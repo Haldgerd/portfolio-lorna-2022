@@ -8,7 +8,7 @@ const Sidebar: React.VFC = () => {
             <div>
                 <p className={`${style.author} tw-m-auto tw-mb-7`}>
                     created with RAM by{" "}
-                    <span className={`${style.circle__small} tw-bg-red-700`} />{" "}
+                    <span className={`${style.circle} tw-bg-red-700`} />{" "}
                     <span className="tw-text-teal-600">ローナ “LORNA”</span>
                 </p>
                 <time dateTime={String(year)}>
@@ -17,8 +17,8 @@ const Sidebar: React.VFC = () => {
                 </time>
             </div>
             <div>
-                <p>01</p>
-                <span className={`${style.circle__small} tw-bg-red-700`} />
+                <div>01</div>
+                <span className={`${style.circle} tw-bg-red-700`} />
             </div>
         </aside>
     );

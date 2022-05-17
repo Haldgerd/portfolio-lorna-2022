@@ -61,6 +61,12 @@ img {
     z-index: 10;
 }
 
+p {
+    font-family: "share-techmonoregular", "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        monospace;
+}
+
 /* SCROLLBAR */
 /* width */
 ::-webkit-scrollbar {
