@@ -520,8 +520,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
-.tw-h-32 {
-  height: 8rem;
+.tw-h-4 {
+  height: 1rem;
 }
 
 .tw-h-screen {
@@ -573,6 +573,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-bg-red-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
+.tw-bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .tw-py-2 {
