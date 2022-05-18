@@ -1,13 +1,13 @@
-import React from "react";
-import Portfolio from "./views/Portfolio/Portfolio";
-import Contact from "./views/Contact";
-import About from "./views/About";
+import React from 'react';
+import Portfolio from './views/Portfolio/Portfolio';
+import Contact from './views/Contact/Contact';
+import Banner from './views/Banner/Banner';
 
 const App: React.VFC = (): JSX.Element => {
     return (
         <>
             <Portfolio />
-            <About />
+            <Banner />
             <Contact />
         </>
     );
