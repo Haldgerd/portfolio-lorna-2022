@@ -508,6 +508,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: auto;
 }
 
+.tw-my-0\.5 {
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
+}
+
+.tw-my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .tw-ml-3 {
   margin-left: 0.75rem;
 }
@@ -516,8 +526,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.75rem;
 }
 
+.tw-mt-1 {
+  margin-top: 0.25rem;
+}
+
 .tw-flex {
   display: flex;
+}
+
+.tw-h-14 {
+  height: 3.5rem;
 }
 
 .tw-h-20 {
@@ -528,24 +546,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
-.tw-h-14 {
-  height: 3.5rem;
-}
-
-.tw-h-4 {
-  height: 1rem;
-}
-
 .tw-w-14 {
   width: 3.5rem;
 }
 
 .tw-w-12 {
   width: 3rem;
-}
-
-.tw-w-4 {
-  width: 1rem;
 }
 
 .tw-flex-col {
@@ -568,19 +574,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 9999px;
 }
 
-.tw-bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
 .tw-bg-yellow-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
-.tw-bg-red-700 {
+.tw-bg-red-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .tw-bg-black {
@@ -614,10 +615,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @font-face {
-  font-family: "share-techmonoregular";
+  font-family: 'share-techmonoregular';
 
-  src: url("../fonts/share-techmono-webfont.woff2") format("woff2"),
-        url("../fonts/share-techmono-webfont.woff") format("woff");
+  src: url('../fonts/share-techmono-webfont.woff2') format('woff2'),
+        url('../fonts/share-techmono-webfont.woff') format('woff');
 
   font-weight: normal;
 
@@ -625,10 +626,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @font-face {
-  font-family: "bebasregular";
+  font-family: 'bebasregular';
 
-  src: url("../fonts/bebas-webfont.woff2") format("woff2"),
-        url("../fonts/bebas-webfont.woff") format("woff");
+  src: url('../fonts/bebas-webfont.woff2') format('woff2'),
+        url('../fonts/bebas-webfont.woff') format('woff');
 
   font-weight: normal;
 
@@ -638,9 +639,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 body {
   width: 100vw;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "bebasregular", "Segoe UI",
-        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-        "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'bebasregular', 'Segoe UI',
+        'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #282c34;
@@ -671,9 +672,8 @@ img {
 }
 
 p {
-  font-family: "share-techmonoregular", "Segoe UI", "Roboto", "Oxygen",
-        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-        monospace;
+  font-family: 'Roboto', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell',
+        'Fira Sans', 'Droid Sans', 'Helvetica Neue', monospace;
 }
 
 /* SCROLLBAR */

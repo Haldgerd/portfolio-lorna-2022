@@ -8,10 +8,17 @@ const Sidebar: React.VFC = (): JSX.Element => {
             <div>
                 <p className={`${styles.sidebar__author} tw-m-auto tw-mb-7`}>
                     created with RAM by{' '}
-                    <span className="tw-h-4 tw-w-4 tw-rounded-full tw-bg-red-700" />
-                    <span className="tw-text-teal-600">ローナ “LORNA”</span>
+                    <span
+                        className={`${styles['sidebar__circle--small']} tw-bg-red-500 tw-my-0.5`}
+                    />
+                    <span className="tw-text-teal-600 tw-mt-1">
+                        ローナ “LORNA”
+                    </span>
                 </p>
-                <time dateTime={String(year)}>
+                <time
+                    dateTime={String(year)}
+                    className="tw-flex tw-flex-col tw-items-center"
+                >
                     <span className={`${styles.sidebar__square} tw-bg-black`} />
                     {year()}
                 </time>
@@ -19,7 +26,7 @@ const Sidebar: React.VFC = (): JSX.Element => {
             <div>
                 <div>01</div>
                 <span
-                    className={`${styles['sidebar__circle--small']} tw-bg-red-700`}
+                    className={`${styles['sidebar__circle--small']} tw-bg-red-500`}
                 />
             </div>
         </aside>

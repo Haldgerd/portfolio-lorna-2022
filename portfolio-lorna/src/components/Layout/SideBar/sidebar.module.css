@@ -1,17 +1,23 @@
+span {
+    display: inline-block;
+}
+
+p span:nth-child(2) {
+    font-family: 'bebasregular';
+}
+
 .sidebar__author {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
 }
 
 .sidebar__circle--small {
-    width: 5vh;
-    height: 5vh;
+    width: 2vh;
+    height: 2vh;
     border-radius: 50%;
-    position: relative;
-    z-index: 5;
 }
 
 .sidebar__square {
-    width: 10vh;
-    height: 10vh;
+    width: 3.5vh;
+    height: 3.5vh;
 }
