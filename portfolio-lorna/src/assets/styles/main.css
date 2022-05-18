@@ -3,35 +3,27 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "share-techmonoregular";
-    src: url("../fonts/share-techmono-webfont.woff2") format("woff2"),
-        url("../fonts/share-techmono-webfont.woff") format("woff");
+    font-family: 'share-techmonoregular';
+    src: url('../fonts/share-techmono-webfont.woff2') format('woff2'),
+        url('../fonts/share-techmono-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "bebasregular";
-    src: url("../fonts/bebas-webfont.woff2") format("woff2"),
-        url("../fonts/bebas-webfont.woff") format("woff");
+    font-family: 'bebasregular';
+    src: url('../fonts/bebas-webfont.woff2') format('woff2'),
+        url('../fonts/bebas-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     width: 100vw;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "bebasregular", "Segoe UI",
-        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-        "Helvetica Neue", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'bebasregular', 'Segoe UI',
+        'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #282c34;
@@ -62,9 +54,8 @@ img {
 }
 
 p {
-    font-family: "share-techmonoregular", "Segoe UI", "Roboto", "Oxygen",
-        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-        monospace;
+    font-family: 'Roboto', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell',
+        'Fira Sans', 'Droid Sans', 'Helvetica Neue', monospace;
 }
 
 /* SCROLLBAR */
