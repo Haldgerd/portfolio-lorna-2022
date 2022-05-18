@@ -22,7 +22,7 @@
         "noEmitOnError": true,
         "jsx": "react-jsx"
     },
-    "include": ["**/*.tsx", "**/*.jsx", "./src/declarations.d.ts"],
+    "include": ["**/*.tsx", "**/*.jsx", "./declarations.d.ts"],
     "exclude": ["node_modules"],
     "references": [{ "path": "./tsconfig.node.json" }],
     "paths": {

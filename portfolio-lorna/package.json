@@ -3,8 +3,9 @@
     "private": true,
     "version": "1.0.0",
     "scripts": {
-        "serve": "vite dev && npx tailwindcss -i ./src/assets/styles/main.css -o ./src/assets/styles/index.css --watch",
+        "serve": "vite dev",
         "build": "tsc && vite build",
+        "tailwind": "npx tailwindcss -i ./src/assets/styles/main.css -o ./src/assets/styles/index.css --watch",
         "preview": "vite preview",
         "eslint-fix": "eslint --fix",
         "build-css": "npx tailwindcss -i ./src/assets/styles/main.css -o ./src/assets/styles/index.css --watch",
