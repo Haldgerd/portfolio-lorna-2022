@@ -1,16 +1,16 @@
-.author {
+.sidebar__author {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
 }
 
-.circle__small {
+.sidebar__circle--small {
     background-color: red;
     width: 10vh;
     height: 10vh;
     border-radius: 50%;
 }
 
-.square {
+.sidebar__square {
     background-color: black;
     width: 10vh;
     height: 10vh;

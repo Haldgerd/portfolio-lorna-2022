@@ -33,7 +33,7 @@ module.exports = {
                     70: "70vh",
                 },
                 height: {
-                    70: "70vh",
+                    "30vh": "30vh",
                 },
             },
         },

@@ -8,7 +8,7 @@ const NAV_ICONS = [
         id: generateHashID(),
         icon: (
             <Icon
-                className="tw-text-4xl"
+                className="tw-text-3xl"
                 icon="file-icons:terminal"
                 color="#262724"
             />
@@ -18,7 +18,7 @@ const NAV_ICONS = [
         id: generateHashID(),
         icon: (
             <Icon
-                className="tw-text-5xl"
+                className="tw-text-4xl"
                 icon="clarity:floppy-solid"
                 color="#262724"
             />
@@ -28,7 +28,7 @@ const NAV_ICONS = [
         id: generateHashID(),
         icon: (
             <Icon
-                className="tw-text-5xl"
+                className="tw-text-4xl"
                 icon="clarity:cd-dvd-solid"
                 color="#262724"
             />
@@ -38,7 +38,7 @@ const NAV_ICONS = [
         id: generateHashID(),
         icon: (
             <Icon
-                className="tw-text-5xl"
+                className="tw-text-4xl"
                 icon="mdi:robot-confused"
                 color="#262724"
             />
@@ -53,7 +53,7 @@ const NavigationArea: React.FC = (): JSX.Element => {
                 return (
                     <Button
                         key={button.id}
-                        btnClass="tw-flex tw-justify-center tw-items-center tw-rounded-full tw-bg-yellow-400 tw-ml-3 tw-w-16 tw-h-16 hover:tw-bg-red-500"
+                        btnClass="tw-flex tw-justify-center tw-items-center tw-rounded-full tw-bg-yellow-400 tw-ml-3 tw-w-14 tw-h-14 hover:tw-bg-red-500"
                         type="button"
                     >
                         {button.icon}
