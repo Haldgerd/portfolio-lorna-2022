@@ -14,7 +14,7 @@ const NAV_ICONS = [
                 color="#262724"
             />
         ),
-        path: '/skills',
+        path: '/',
     },
     {
         id: generateHashID(),
@@ -25,7 +25,7 @@ const NAV_ICONS = [
                 color="#262724"
             />
         ),
-        path: '/projects',
+        path: '/skills',
     },
     {
         id: generateHashID(),
@@ -36,7 +36,7 @@ const NAV_ICONS = [
                 color="#262724"
             />
         ),
-        path: '/skills',
+        path: '/projects',
     },
     {
         id: generateHashID(),
@@ -47,7 +47,7 @@ const NAV_ICONS = [
                 color="#262724"
             />
         ),
-        path: '/projects',
+        path: '/about',
     },
 ];
 
