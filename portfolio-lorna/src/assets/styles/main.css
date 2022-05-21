@@ -41,10 +41,6 @@ section {
     overflow: hidden;
 }
 
-h1 {
-    font-size: 5rem;
-}
-
 img {
     height: 100vh;
     position: absolute;
