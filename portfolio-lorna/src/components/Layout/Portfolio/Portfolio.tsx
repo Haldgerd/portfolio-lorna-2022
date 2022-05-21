@@ -1,9 +1,9 @@
-import React from "react";
-import Sidebar from "../../components/Layout/SideBar/Sidebar";
-import NavigationArea from "../../components/Navigation/NavigationArea";
-import Image from "../../components/UI/Image";
-import Circle from "../../components/Visuals/Circle/Circle";
-import styles from "./portfolio.module.css";
+import React from 'react';
+import Sidebar from '../SideBar/Sidebar';
+import NavigationArea from '../../Navigation/NavigationArea';
+import Image from '../../UI/Image';
+import Circle from '../../Visuals/Circle/Circle';
+import styles from './portfolio.module.css';
 
 const Portfolio: React.VFC = (): JSX.Element => {
     return (

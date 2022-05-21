@@ -1,7 +1,8 @@
-import React from "react";
-import { Icon } from "@iconify/react";
-import generateHashID from "../../util/helpers/generateHashID.js";
-import Button from "../UI/Button";
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Icon } from '@iconify/react';
+import generateHashID from '../../util/helpers/generateHashID.js';
+import Button from '../UI/Button';
 
 const NAV_ICONS = [
     {
@@ -13,6 +14,7 @@ const NAV_ICONS = [
                 color="#262724"
             />
         ),
+        path: '/skills',
     },
     {
         id: generateHashID(),
@@ -23,6 +25,7 @@ const NAV_ICONS = [
                 color="#262724"
             />
         ),
+        path: '/projects',
     },
     {
         id: generateHashID(),
@@ -33,6 +36,7 @@ const NAV_ICONS = [
                 color="#262724"
             />
         ),
+        path: '/skills',
     },
     {
         id: generateHashID(),
@@ -43,10 +47,13 @@ const NAV_ICONS = [
                 color="#262724"
             />
         ),
+        path: '/projects',
     },
 ];
 
-const NavigationArea: React.FC = (): JSX.Element => {
+const NavigationArea: React.VFC = (): JSX.Element => {
+    const navigate = useNavigate();
+
     return (
         <menu className="tw-fixed tw-right-10 tw-bottom-7 tw-flex tw-z-10">
             {NAV_ICONS.map((button) => {
@@ -55,6 +62,9 @@ const NavigationArea: React.FC = (): JSX.Element => {
                         key={button.id}
                         btnClass="tw-flex tw-justify-center tw-items-center tw-rounded-full tw-bg-yellow-400 tw-ml-3 tw-w-14 tw-h-14 hover:tw-bg-red-500"
                         type="button"
+                        action={() => {
+                            navigate(button.path);
+                        }}
                     >
                         {button.icon}
                     </Button>
