@@ -6,6 +6,7 @@ import styles from './home.module.css';
 
 const Home: React.VFC = (): JSX.Element => {
     return (
+
         <section className="tw-grid tw-grid-cols-7 tw-grid-rows-4">
             <Image />
             <Circle
