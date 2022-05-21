@@ -4,7 +4,9 @@ type Props = {
     btnClass: string;
     children: React.ReactNode;
     type: 'submit' | 'reset' | 'button';
-    action: MouseEventHandler<HTMLButtonElement>;
+    // eslint-disable-next-line react/require-default-props
+    action?: MouseEventHandler<HTMLButtonElement>;
+    // TODO: look into it.
 };
 
 const Button: React.FC<Props> = ({
