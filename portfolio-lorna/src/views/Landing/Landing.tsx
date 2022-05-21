@@ -1,7 +1,7 @@
 import React from 'react';
-import Banner from '../../components/Layout/Banner/Banner';
-import Contact from '../../components/Layout/Contact/Contact';
-import Portfolio from '../../components/Layout/Portfolio/Portfolio';
+import Banner from '../../components/Banner/Banner';
+import Contact from '../../components/Contact/Contact';
+import Portfolio from '../../components/Portfolio/Portfolio';
 
 const Landing: React.VFC = (): JSX.Element => {
     return (
