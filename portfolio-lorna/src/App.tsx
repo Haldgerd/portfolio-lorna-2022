@@ -1,15 +1,18 @@
 import React from 'react';
-import Portfolio from './views/Portfolio/Portfolio';
-import Contact from './views/Contact/Contact';
-import Banner from './views/Banner/Banner';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Landing from './views/Landing/Landing';
+import Projects from './views/Projects/Projects';
+import Skills from './views/Skills/Skills';
 
 const App: React.VFC = (): JSX.Element => {
     return (
-        <>
-            <Portfolio />
-            <Banner />
-            <Contact />
-        </>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Landing />} />
+                <Route path="/skills" element={<Skills />} />
+                <Route path="/projects" element={<Projects />} />
+            </Routes>
+        </Router>
     );
 };
 

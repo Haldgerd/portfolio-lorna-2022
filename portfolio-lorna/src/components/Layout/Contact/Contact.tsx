@@ -1,5 +1,5 @@
 import React from 'react';
-import Circle from '../../components/Visuals/Circle/Circle';
+import Circle from '../../Visuals/Circle/Circle';
 import styles from './contact.module.css';
 
 const Contact: React.FC = (): JSX.Element => {
