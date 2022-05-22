@@ -1,4 +1,4 @@
 .home__title {
-    font-size: 8rem;
+    font-size: clamp(50px, 16vh, 1050px);
     text-transform: uppercase;
 }

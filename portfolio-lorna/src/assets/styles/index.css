@@ -512,28 +512,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column-start: 4;
 }
 
-.tw-col-start-5 {
-  grid-column-start: 5;
-}
-
-.tw-col-start-6 {
-  grid-column-start: 6;
-}
-
-.tw-col-end-5 {
-  grid-column-end: 5;
-}
-
-.tw-col-end-6 {
-  grid-column-end: 6;
-}
-
 .tw-col-end-8 {
   grid-column-end: 8;
 }
 
-.tw-row-start-2 {
-  grid-row-start: 2;
+.tw-row-start-3 {
+  grid-row-start: 3;
 }
 
 .tw-m-auto {
@@ -550,14 +534,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0px;
 }
 
-.tw-my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+.tw-mt-6 {
+  margin-top: 1.5rem;
 }
 
-.tw-my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+.tw-mr-6 {
+  margin-right: 1.5rem;
 }
 
 .tw-ml-3 {
@@ -592,6 +574,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 3.5rem;
 }
 
+.tw-h-12 {
+  height: 3rem;
+}
+
+.tw-w-full {
+  width: 100%;
+}
+
 .tw-w-14 {
   width: 3.5rem;
 }
@@ -600,20 +590,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 3rem;
 }
 
-.tw-grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-
 .tw-grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
-.tw-grid-rows-3 {
-  grid-template-rows: repeat(3, minmax(0, 1fr));
-}
-
-.tw-grid-rows-4 {
-  grid-template-rows: repeat(4, minmax(0, 1fr));
+.tw-grid-rows-5 {
+  grid-template-rows: repeat(5, minmax(0, 1fr));
 }
 
 .tw-flex-col {
@@ -651,19 +633,48 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.tw-py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.tw-py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .tw-py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.tw-py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .tw-py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.tw-pl-20 {
+  padding-left: 5rem;
+}
+
+.tw-pl-36 {
+  padding-left: 9rem;
+}
+
+.tw-pl-0\.5 {
+  padding-left: 0.125rem;
+}
+
+.tw-pl-0 {
+  padding-left: 0px;
+}
+
+.tw-pl-1 {
+  padding-left: 0.25rem;
+}
+
+.tw-pl-2 {
+  padding-left: 0.5rem;
 }
 
 .tw-text-3xl {
@@ -676,14 +687,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.5rem;
 }
 
-.tw-text-9xl {
-  font-size: 8rem;
-  line-height: 1;
+.tw-text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.tw-text-8xl {
-  font-size: 6rem;
-  line-height: 1;
+.tw-text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .tw-text-black {
@@ -742,10 +753,10 @@ section {
 }
 
 img {
-  height: 100vh;
+  height: 110vh;
   position: absolute;
-  left: 80px;
-  top: 0px;
+  left: 62px;
+  top: -47px;
   z-index: 10;
 }
 
