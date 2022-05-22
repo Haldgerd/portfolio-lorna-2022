@@ -485,16 +485,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .tw-left-36 {
+
     left: 9rem;
+
+  left: 9rem;
+}
+
+.tw-right-10 {
+  right: 2.5rem;
+
 }
 
 .tw-right-10 {
     right: 2.5rem;
 }
 
+
 .tw-bottom-7 {
     bottom: 1.75rem;
 }
+
 
 .tw-left-10 {
     left: 2.5rem;
@@ -528,6 +538,38 @@ Ensure the default browser behavior of the `hidden` attribute.
     grid-row-start: 3;
 }
 
+.tw-col-start-3 {
+  grid-column-start: 3;
+}
+
+.tw-col-start-4 {
+  grid-column-start: 4;
+}
+
+.tw-col-start-5 {
+  grid-column-start: 5;
+}
+
+.tw-col-start-6 {
+  grid-column-start: 6;
+}
+
+.tw-col-end-5 {
+  grid-column-end: 5;
+}
+
+.tw-col-end-6 {
+  grid-column-end: 6;
+}
+
+.tw-col-end-8 {
+  grid-column-end: 8;
+}
+
+.tw-row-start-2 {
+  grid-row-start: 2;
+}
+
 .tw-m-auto {
     margin: auto;
 }
@@ -550,6 +592,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 1.5rem;
 }
 
+.tw-my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tw-my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .tw-ml-3 {
     margin-left: 0.75rem;
 }
@@ -568,6 +620,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .tw-grid {
     display: grid;
+
 }
 
 .tw-h-20 {
@@ -590,6 +643,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 100%;
 }
 
+.tw-h-14 {
+  height: 3.5rem;
+}
+
 .tw-w-14 {
     width: 3.5rem;
 }
@@ -608,6 +665,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .tw-grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.tw-grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.tw-grid-cols-7 {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.tw-grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.tw-grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
 .tw-flex-col {
@@ -638,6 +711,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-bg-yellow-400 {
     --tw-bg-opacity: 1;
     background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.tw-bg-yellow-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+
 }
 
 .tw-bg-black {
@@ -689,6 +771,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 0.5rem;
 }
 
+.tw-py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.tw-py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .tw-text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -707,6 +799,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .tw-text-red-500 {
     --tw-text-opacity: 1;
     color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.tw-text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.tw-text-8xl {
+  font-size: 6rem;
+  line-height: 1;
 }
 
 .tw-text-black {
@@ -763,6 +865,7 @@ section {
     position: relative;
     overflow: hidden;
 }
+
 
 img {
     height: 110vh;
